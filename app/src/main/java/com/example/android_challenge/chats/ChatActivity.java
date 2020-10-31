@@ -43,7 +43,7 @@ public class ChatActivity extends AppCompatActivity {
     private void showProgress(int visi) {
         chatBinding.chatProgress.setVisibility(visi);
         chatBinding.chatProgress.setVisibility(visi);
-        //please run
+
 
     }
 }
