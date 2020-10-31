@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="favViewModel"
+            type="com.example.android_challenge.contacts.FavItemViewModel" />
+    </data>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pic_fav"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:postImg="@{favViewModel.favoritesItem.pic}"
+        />
+        <TextView
+            android:id="@+id/nam_fav"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="@{favViewModel.favoritesItem.name}"
+            android:textColor="@color/white"
+            android:layout_marginTop="88dp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+
+            />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</layout>

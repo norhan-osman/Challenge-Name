@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/explore"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:title="Explore"
+        />
+
+
+    <item
+        android:id="@+id/studypage"
+        android:icon="@drawable/ic_baseline_bookmark_24"
+        android:title="Study Page"/>
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_weekend_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/downloads"
+        android:icon="@drawable/ic_baseline_cloud_download_24"
+        android:title="Downloads"/>
+
+    <item
+        android:id="@+id/hub"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Hub"/>
+
+</menu>
